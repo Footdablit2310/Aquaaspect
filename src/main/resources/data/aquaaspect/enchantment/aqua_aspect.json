@@ -263,6 +263,24 @@
             "per_level_above_first": 2.0
           }
         }
+      },
+      {
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:damage_over_time",
+          "damage": 2.0,
+          "interval": 10,
+          "duration": 60,
+          "damage_type": "minecraft:drown"
+        }
       }
     ]
   }
