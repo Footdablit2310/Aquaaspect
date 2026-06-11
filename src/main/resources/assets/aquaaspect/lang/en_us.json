@@ -1,0 +1,13 @@
+{
+  "itemGroup.aquaaspect": "Example Mod Tab",
+  "block.aquaaspect.example_block": "Example Block",
+  "item.aquaaspect.example_item": "Example Item",
+
+  "aquaaspect.configuration.title": "AquaAspect Configs",
+  "aquaaspect.configuration.section.aquaaspect.common.toml": "AquaAspect Configs",
+  "aquaaspect.configuration.section.aquaaspect.common.toml.title": "AquaAspect Configs",
+  "aquaaspect.configuration.items": "Item List",
+  "aquaaspect.configuration.logDirtBlock": "Log Dirt Block",
+  "aquaaspect.configuration.magicNumberIntroduction": "Magic Number Text",
+  "aquaaspect.configuration.magicNumber": "Magic Number"
+}
