@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "aquaaspect",
-  "version": "0.0.1.1-alpha",
+  "version": "0.1.0.0",
   "name": "Aqua Aspect",
   "description": "Adds the Aqua Aspect enchantment.",
   "authors": ["Footdablit2310"],
@@ -11,7 +11,7 @@
   "entrypoints": {},
 
   "depends": {
-    "minecraft": "1.21.11",
+    "minecraft": ">=1.21",
     "fabricloader": ">=0.15.0"
   }
 }
