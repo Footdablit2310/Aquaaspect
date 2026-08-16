@@ -1,0 +1,244 @@
+{
+  "description": {
+    "translate": "Aqua Aspect"
+  },
+
+  "supported_items": [
+    "minecraft:wooden_sword",
+    "minecraft:stone_sword",
+    "minecraft:iron_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword",
+    "minecraft:golden_sword",
+    "minecraft:mace"
+  ],
+
+  "exclusive_set": [
+    "minecraft:fire_aspect"
+  ],
+
+  "weight": 1,
+  "max_level": 2,
+
+  "min_cost": { "base": 10, "per_level_above_first": 8 },
+  "max_cost": { "base": 30, "per_level_above_first": 10 },
+
+  "anvil_cost": 200,
+
+  "slots": ["mainhand"],
+
+  "effects": {
+    "minecraft:damage": [
+
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 16.5, 33.0 ],
+            "fallback": 16.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:enderman" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 16.5, 33.0 ],
+            "fallback": 16.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:ender_dragon" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:blaze" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:ghast" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:magma_cube" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:wither_skeleton" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:zombified_piglin" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:piglin" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:piglin_brute" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:hoglin" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:zoglin" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:strider" }
+        }
+      },
+
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:lookup",
+            "values": [ 6.5, 13.0 ],
+            "fallback": 13.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": { "type": "minecraft:player" }
+        }
+      }
+
+    ]
+  }
+}
